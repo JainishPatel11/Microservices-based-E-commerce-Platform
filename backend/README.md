@@ -4,17 +4,6 @@ This project implements a basic e-commerce application using microservices archi
 
 ## Functional Requirements
 
-### Frontend
-
-**Branch Name:-** [Frontend](https://github.com/yashpatel05/E-commerce-Microservice-Application/tree/frontend)
-
-A simple user interface (UI) is provided for users to interact with the application. Users can:
-
-- Browse products
-- View product details
-- Add products to cart
-- Complete purchases
-
 ### Backend
 
 **Branch Name :-** [main](https://github.com/yashpatel05/E-commerce-Microservice-Application/tree/main)
