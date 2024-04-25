@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import Footer from '../components/Footer';
-import Header from '../components/Header';
 import Navbar from '@/components/Navbar';
 import '../../public/styles/global.css';
-import { UserProvider } from '@/context/UserContext';
+import Header from "@/components/Header";
+import { CartProvider } from "@/context/CartContext";
 
 const RootLayout = ({
   children
@@ -12,11 +12,11 @@ const RootLayout = ({
   children: React.ReactNode
 }) => {
   return (
-    <UserProvider>
+    <CartProvider>
       <html>
         <body>
           <div className="flex flex-col min-h-screen">
-            <Header />
+          <Header />
             <div className="flex-grow flex">
               <div className="w-1/4 bg-gray-200">
                 <Navbar />
@@ -27,7 +27,7 @@ const RootLayout = ({
           </div>
         </body>
       </html>
-    </UserProvider>
+    </CartProvider>
   );
 }
 
