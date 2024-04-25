@@ -6,8 +6,6 @@ This project implements a basic e-commerce application using microservices archi
 
 ### Backend
 
-**Branch Name :-** [main](https://github.com/yashpatel05/E-commerce-Microservice-Application/tree/main)
-
 ### Products Service
 
 Manages product information including name, description, price, image id, and stock availability. Endpoints include:
