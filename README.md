@@ -6,8 +6,6 @@ This project implements a basic e-commerce application using microservices archi
 
 ### Frontend
 
-**Branch Name:-** [Frontend](https://github.com/yashpatel05/E-commerce-Microservice-Application/tree/frontend)
-
 A simple user interface (UI) is provided for users to interact with the application. Users can:
 
 - Browse products
@@ -16,8 +14,6 @@ A simple user interface (UI) is provided for users to interact with the applicat
 - Complete purchases
 
 ### Backend
-
-**Branch Name :-** [main](https://github.com/yashpatel05/E-commerce-Microservice-Application/tree/main)
 
 ### Products Service
 
